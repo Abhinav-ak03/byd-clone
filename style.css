@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0; 
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.aboutbyd{
+    width:560px;
+    height:85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.aboutbyd h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.divone{
+    background-color: rgba(37, 39, 40, 0.8);
+    width:100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    backdrop-filter: blur(10px);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+.one{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.two{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.support{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myVideo{
+    background-size: cover;
+}
+
+
+
+.logo{
+    width: 300px;
+    margin-left: 75px;
+}
+.global{
+    width: 160px;
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.global img{
+    color: #fff;
+}
+.language{
+    height: 60px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color: white;
+}
+
+.navbox2{
+    width: 100%;
+    height: 85px;
+    background-color: rgba(37, 39, 40, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.title{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.title-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .heading{
+    width: 1291.31px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.title .btn button{
+    padding: 15px 50px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 7pc;
+}
+
+.bg-img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1{
+    background-image: url('images/image\ 1.jpg');
+}
+.img-2{
+    background-image: url('images/image\ 2.jpg');
+}
+.img-3{
+    background-image: url('images/image\ 3.jpg');
+}
+
+
+
+footer .container{
+    width:100%;
+    height: 196px;
+    background-color:rgb(37,39,40);
+    
+}
+footer .container .container1{
+    width: 92%;
+    height: 102px;
+    background-color:rgb(37,39,40);
+    margin-left: 85px;
+    border-bottom:1px solid rgba(153, 153, 153, 0.558);
+
+}
+footer .container .container2{
+    width: 100%;
+   height:94px ;
+   background-color:rgb(37,39,40);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.contact{
+    width: 380px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.contactone{
+   
+   border-right: 2px solid rgba(153, 153, 153, 0.558);
+} 
+.followus{
+    width: 380px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+}
